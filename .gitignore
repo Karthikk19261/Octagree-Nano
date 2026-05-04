@@ -31,3 +31,6 @@ CLAUDE.md.local
 # Reference / unrelated sites kept locally for inspection (not part of Octagreen)
 www.izonil.eu/
 www.rrs-system.com/
+
+# Production deploy folder (frontend + PHP backend, contains SendGrid creds — keep local only)
+Octagreen actual/

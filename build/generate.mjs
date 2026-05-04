@@ -1216,7 +1216,7 @@ const infoPages = [
       <span class="eyebrow">Apply Today</span>
       <h2>Tell us about your business</h2>
       <p class="text-muted">A member of our channel team will get in touch within one business day.</p>
-      <form data-form="lead" data-mailto="mail@octagreennano.com" data-name="dealer" class="form form-card mt-2">
+      <form data-form="lead" data-mailto="mail@octagreennano.com" data-endpoint="ex_contactus.php" data-name="dealer" class="form form-card mt-2">
         <input type="hidden" name="subject" value="Dealer enquiry from octagreennano.com">
         ${honeypot}
         <div class="form-row cols-2">
@@ -1258,7 +1258,7 @@ const infoPages = [
       </div>
 
       <h3 style="margin-top:2rem">Apply now</h3>
-      <form data-form="lead" data-mailto="mail@octagreennano.com" data-name="career" class="form form-card">
+      <form data-form="lead" data-mailto="mail@octagreennano.com" data-endpoint="ex_contactus.php" data-name="career" class="form form-card">
         <input type="hidden" name="subject" value="Career application from octagreennano.com">
         ${honeypot}
         <div class="form-row cols-2">
@@ -1292,7 +1292,7 @@ const infoPages = [
         <h2>We'd love to hear from you</h2>
         <p class="text-muted">Whether you need a project quote, dealer location, or a colour consultation — drop us a note and we'll respond within one business day.</p>
 
-        <form data-form="lead" data-mailto="mail@octagreennano.com" data-name="contact" class="form form-card mt-3">
+        <form data-form="lead" data-mailto="mail@octagreennano.com" data-endpoint="ex_contactus.php" data-name="contact" class="form form-card mt-3">
           <input type="hidden" name="subject" value="Enquiry from octagreennano.com (Contact)">
           ${honeypot}
           <div class="form-row cols-2">
@@ -1356,7 +1356,7 @@ const infoPages = [
         <h2>Tell us about your project</h2>
         <p class="text-muted">Free site visit · Same-day response · No-obligation quote</p>
 
-        <form data-form="lead" data-mailto="mail@octagreennano.com" data-name="quote" class="form form-card mt-3">
+        <form data-form="lead" data-mailto="mail@octagreennano.com" data-endpoint="ex_contactquote.php" data-name="quote" class="form form-card mt-3">
           <input type="hidden" name="subject" value="Quote request from octagreennano.com">
           ${honeypot}
           <div class="form-row cols-2">
@@ -1425,7 +1425,7 @@ const infoPages = [
       <h2>Your feedback matters</h2>
       <p class="text-muted">We are committed to making every Octagreen experience excellent. Tell us what worked, what didn't, and what we can do better.</p>
 
-      <form data-form="lead" data-mailto="mail@octagreennano.com" data-name="feedback" class="form form-card mt-3">
+      <form data-form="lead" data-mailto="mail@octagreennano.com" data-endpoint="ex_feedback.php" data-name="feedback" class="form form-card mt-3">
         <input type="hidden" name="subject" value="Customer feedback from octagreennano.com">
         ${honeypot}
         <div class="form-row cols-2">
