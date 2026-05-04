@@ -1,0 +1,33 @@
+# Dependencies (regenerated via `npm install`)
+node_modules/
+
+# Build artefacts that aren't needed in repo
+*.log
+npm-debug.log*
+.npm
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local-only Claude Code config / memory
+.claude/
+CLAUDE.md.local
+
+# Optimized image regeneration cache (will rebuild from JPGs/PNGs)
+# Comment this out if you'd rather commit .webp files (saves CI time on hosts)
+# images/*.webp
+
+# Temporary upload staging
+*.bak
+*~
+
+# Reference / unrelated sites kept locally for inspection (not part of Octagreen)
+www.izonil.eu/
+www.rrs-system.com/
